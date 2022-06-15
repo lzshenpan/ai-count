@@ -1,0 +1,9 @@
+#Config of AI count
+  input_path: 0                    # 0 represent realtime camera , url represent mp4 file
+  output_path: "./output/"                          # output path
+  enter_thread: 5
+  exit_thread: 4
+  specify_class: "down"                              # specify count action class
+  pose_samples_folder: "./proceed_csv"              # knn use data url
+
+
